@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2193263084420280224}
   - component: {fileID: 6359120809118019365}
   - component: {fileID: 5441868476038709534}
+  - component: {fileID: 9050733576891534061}
   m_Layer: 0
   m_Name: Lightning_Enemy
   m_TagString: Enemy
@@ -137,3 +138,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 63
   m_ObstacleAvoidanceType: 4
+--- !u!114 &9050733576891534061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875879279830820539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe7f78d65f502045b78facb1b2affae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  fireCost: 5
+  coldCost: 3
+  lightningCost: 1
+  poisonCost: 100

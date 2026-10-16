@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2563214340344610521}
   - component: {fileID: 247135751199939651}
   - component: {fileID: 5270653883870861230}
+  - component: {fileID: 5629967141850618374}
   m_Layer: 0
   m_Name: Fire_Enemy
   m_TagString: Enemy
@@ -137,3 +138,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 111
   m_ObstacleAvoidanceType: 4
+--- !u!114 &5629967141850618374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6221043969904948106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe7f78d65f502045b78facb1b2affae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  fireCost: 1
+  coldCost: 100
+  lightningCost: 3
+  poisonCost: 5
