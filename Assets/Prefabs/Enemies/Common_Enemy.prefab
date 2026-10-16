@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8840420855264532266}
   - component: {fileID: 9179883859276914083}
   - component: {fileID: 6639064921206525969}
+  - component: {fileID: 6787352266993417794}
   m_Layer: 0
   m_Name: Common_Enemy
   m_TagString: Enemy
@@ -137,3 +138,15 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
+--- !u!114 &6787352266993417794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4313517377952873893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe7f78d65f502045b78facb1b2affae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
