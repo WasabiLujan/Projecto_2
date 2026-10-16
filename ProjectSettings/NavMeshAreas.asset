@@ -11,13 +11,13 @@ NavMeshProjectSettings:
     cost: 1
   - name: Jump
     cost: 2
-  - name: PorAcaNo
+  - name: Fire_Tile
     cost: 4
-  - name: 
+  - name: Cold_Tile
     cost: 1
-  - name: 
+  - name: Lightning_Tile
     cost: 1
-  - name: 
+  - name: Poison_Tile
     cost: 1
   - name: 
     cost: 1
